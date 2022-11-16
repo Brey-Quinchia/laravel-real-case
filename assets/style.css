@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Mansalva&family=Rubik+Marker+Hatch&family=Sniglet&display=swap');
+/* List Font-family 
+    ?font-family: 'Caveat', cursive;
+    *font-family: 'Mansalva', cursive;
+    ?font-family: 'Rubik Marker Hatch', cursive;
+    *font-family: 'Sniglet', cursive;
+
+*/
+body{
+    background-color: antiquewhite;
+}
+
+div.main{
+    background-color: aquamarine;
+    border-radius: 20px;
+    min-height: 200px;
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+}
+div.content{
+    display: block;
+    /* background-color: azure; */
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt-1{
+    background: linear-gradient(90deg, rgb(240, 210, 165), rgb(255, 255, 255));
+    border-radius: 30px;
+    border: none;
+    font-family: 'Mansalva', cursive;
+    width: auto;
+    height: 50px;
+    font-size: x-large;
+}
+#bt-1:hover{
+    transform: scale(1.1);
+}
+.span{
+    padding: 10px 0 30px 0px;
+}
+
+#building-span{
+    border-radius: 30px;
+    width: 90%;
+    /* padding: 10px 0 30px; */
+}
+#building-span:hover{
+    transform: scale(1.1);
+}
