@@ -27,3 +27,4 @@ RUN BACKGROUND php artisan serve --host 0.0.0.0 --port 80
 
 # Expose website creates a unique link to view the website running in the server
 EXPOSE WEBSITE http://localhost:80
+#go to deploy
